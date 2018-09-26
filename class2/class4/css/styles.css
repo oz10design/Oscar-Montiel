@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper{
+	width:1280px;
+	height:1280px;
+}
+
+nav{
+	background-color:peachpuff;
+	top:0px;
+	padding:20px;
+}
+
+ul{
+	list-style-type: none;
+	margin:0px;
+}
+
+li{
+	display: inline-block;
+}
+
+main{
+	width:768px;
+	height:200px;
+	background-color:aqua;
+	margin-left:100px;
+}
+
+h1{
+	 margin:0px;
+}
+
+.relative-position{
+	position:relative;
+	width:260px;
+	height:160px;
+	background-color: peru;
+	left:100px;
+	top:50px;
+	
+}
+
+.absolute-position{
+	position:absolute;
+	width:75px;
+	height:50px;
+	background-color:dodgerblue;
+	top:50px;
+	left:50px;
+}

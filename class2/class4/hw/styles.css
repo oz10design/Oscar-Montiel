@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper{
+	width:1280px;
+	height:1280px;
+}
+
+nav{
+	background-color:peachpuff;
+	top:0px;
+	padding:20px;
+}
+
+ul{
+	list-style-type: none;
+	margin:0px;
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+}
+
+main{
+	width:768px;
+	height:200px;
+	background-color:red;
+	margin-left:100px;
+}
+
+h1{
+	 margin:0px;
+	text-align: center;
+}
+
+.relative-position{
+	position:relative;
+	width:768px;
+	height:130px;
+	background-color: yellow;
+	left:0px;
+	top:150px;
+	
+}
+
+.absolute-position{
+	position:absolute;
+	width:575px;
+	height:50px;
+	background-color:orange;
+	top:50px;
+	left:90px;
+}
+
+.absolute-position1{position:absolute;
+	width:575px;
+	height:450px;
+	background-color:gray;
+	top:120px;
+	left:0px;
+}
+
+.relative-position1{position:relative;
+	width:368px;
+	height:130px;
+	background-color: black;
+	left:100px;
+	top:150px;
+	}
