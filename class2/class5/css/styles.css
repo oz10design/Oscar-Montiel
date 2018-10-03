@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*header content*/
+#wrapper{
+	width:100%;
+	height:100%;
+	background-color:gray;
+}
+
+header{ 
+width:100%;
+height:120px;
+}
+
+nav{
+height:40px;
+background-color:peachpuff;
+padding:20px;
+top:0px;
+}
+
+ul{
+list-style: none; margin: 25px; text-align: center;
+}
+
+li{
+display: inline-block;margin-left:30px;
+}
+
+h1{
+text-align:center;
+color:white;
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+background-color:gray;
+top:0px;
+margin-top:-10px;
+font-size:40px;
+}
+
+#subheader{
+	width:100%;
+	height: 45px;
+	background-color:beige;
+	margin-top:-20px;
+}
+
+#subheader p{
+	color:black;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 40px;
+	
+}
+
+.content{
+	width:100%;
+	height:1280px;
+	background-color:darksalmon;
+	margin-top:-30px;
+}
+
+.box{
+	width:130px;
+	height:550px;
+	margin:25px;
+	float: left;
+	padding: 20px;
+	font-size: 11px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+@media (min-width:768px)
+{
+#wrapper{
+	width:1280px;
+	height:1280px;
+	background-color:gray;
+}
+
+header{ 
+width:100%;
+height:120px;
+}
+
+nav{
+height:60px;
+background-color:peachpuff;
+padding:20px;
+top:0px;
+}
+
+ul{
+list-style: none; margin: 40px; text-align: center;
+}
+
+li{
+display: inline-block;margin-left:40px;
+}
+
+h1{
+color:white;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+background-color:black;
+top:0px;
+margin-top:-10px
+}
+
+#subheader{
+	width:100%;
+	height: 35px;
+	background-color:beige;
+	margin-top:-20px;
+}
+
+#subheader p{
+	color:gray;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 30px;
+	
+}
+
+.content{
+	width:100%;
+	height:600px;
+	background-color:darksalmon;
+}
+
+.box{
+	width:200px;
+	height:560px;
+	margin-left:30px;
+	float: left;
+	padding: 15px;
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+}
