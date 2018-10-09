@@ -136,3 +136,13 @@ margin-top:-10px
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
 
 }
+
+img{
+	filter: hue-rotate("40°")
+}
+.image-holder{
+	background-image: url(https://www.twistercityhd.com/imglib/seo/hd/2018/softail-heritage.jpg);
+	width:1280px;
+	height:1280px;
+	filter: hue-rotate("40°")
+}
